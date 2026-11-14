@@ -1,98 +1,1233 @@
 {
   "meta": {
     "week": "2026-W46",
-    "generated_at": "2026-11-14T03:29:03+00:00"
+    "generated_at": "2026-11-14T03:33:48+00:00"
   },
   "repos": [
     {
       "full_name": "sherlock-project/sherlock",
       "description": "Hunt down social media accounts by username across social networks",
       "language": "Python",
-      "stars_this_week": 13364
+      "stars_this_week": 13364,
+      "boards": [
+        "all",
+        "python"
+      ],
+      "total_stars": 111224,
+      "topics": [
+        "cli",
+        "cti",
+        "cybersecurity",
+        "forensics",
+        "hacktoberfest",
+        "information-gathering",
+        "infosec",
+        "linux",
+        "osint",
+        "pentesting",
+        "python",
+        "python3",
+        "reconnaissance",
+        "redteam",
+        "sherlock",
+        "tools"
+      ],
+      "created_at": "2018-12-24"
     },
     {
       "full_name": "anthropics/skills",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "stars_this_week": 6169
+      "stars_this_week": 6169,
+      "boards": [
+        "all",
+        "python"
+      ],
+      "total_stars": 194180,
+      "topics": [
+        "agent-skills"
+      ],
+      "created_at": "2025-09-22"
     },
     {
       "full_name": "milind-soni/OpenMausBot",
       "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "language": "TypeScript",
-      "stars_this_week": 7763
+      "stars_this_week": 7763,
+      "boards": [
+        "all",
+        "typescript"
+      ],
+      "total_stars": 22238,
+      "topics": [
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "computer-use",
+        "docker",
+        "electron",
+        "grok",
+        "grok-bot",
+        "grok-bot-alternative",
+        "self-hosted",
+        "typescript"
+      ],
+      "created_at": "2026-08-11"
     },
     {
       "full_name": "vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "stars_this_week": 4360
+      "stars_this_week": 4360,
+      "boards": [
+        "all"
+      ],
+      "total_stars": 50773,
+      "topics": [],
+      "created_at": "2026-01-11"
     },
     {
       "full_name": "google/elephant-goldfish-model",
       "description": "Open-source plugin for designing and reviewing software with agents",
       "language": "Python",
-      "stars_this_week": 5560
+      "stars_this_week": 5560,
+      "boards": [
+        "all",
+        "python"
+      ],
+      "total_stars": 18673,
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "antigravity",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skills",
+        "codex",
+        "codex-plugin",
+        "coding-agents",
+        "context-engineering",
+        "developer-tools",
+        "gemini",
+        "llm",
+        "multi-agent",
+        "prompt-engineering",
+        "spec-driven-development"
+      ],
+      "created_at": "2026-09-13"
     },
     {
       "full_name": "ZhuLinsen/daily_stock_analysis",
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "language": "Python",
-      "stars_this_week": 3778
+      "stars_this_week": 3778,
+      "boards": [
+        "all",
+        "python"
+      ],
+      "total_stars": 71736,
+      "topics": [
+        "a-stock",
+        "ai-agent",
+        "aigc",
+        "llm",
+        "quant",
+        "quantitative-finance",
+        "quantitative-trading"
+      ],
+      "created_at": "2026-01-10"
     },
     {
       "full_name": "NVIDIA/auto-ontology",
       "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "language": "Python",
-      "stars_this_week": 4108
+      "stars_this_week": 4108,
+      "boards": [
+        "all",
+        "python"
+      ],
+      "total_stars": 12594,
+      "topics": [],
+      "created_at": "2026-04-27"
     },
     {
       "full_name": "google-deepmind/mujoco",
       "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
       "language": "C++",
-      "stars_this_week": 1764
+      "stars_this_week": 1764,
+      "boards": [
+        "all"
+      ],
+      "total_stars": 17886,
+      "topics": [
+        "mujoco",
+        "physics",
+        "robotics"
+      ],
+      "created_at": "2021-08-27"
     },
     {
       "full_name": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "stars_this_week": 7599
+      "stars_this_week": 7599,
+      "boards": [
+        "all"
+      ],
+      "total_stars": 323891,
+      "topics": [],
+      "created_at": "2026-02-03"
     },
     {
       "full_name": "addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "stars_this_week": 3502
+      "stars_this_week": 3502,
+      "boards": [
+        "all"
+      ],
+      "total_stars": 117187,
+      "topics": [
+        "agent-skills",
+        "antigravity",
+        "claude-code",
+        "codex",
+        "cursor",
+        "skills"
+      ],
+      "created_at": "2026-02-15"
     },
     {
       "full_name": "cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars_this_week": 8829
+      "stars_this_week": 8829,
+      "boards": [
+        "all"
+      ],
+      "total_stars": 71992,
+      "topics": [],
+      "created_at": "2026-06-18"
     },
     {
       "full_name": "zed-industries/zed",
       "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
       "language": "Rust",
-      "stars_this_week": 2117
+      "stars_this_week": 2117,
+      "boards": [
+        "all"
+      ],
+      "total_stars": 94972,
+      "topics": [
+        "gpui",
+        "rust-lang",
+        "text-editor",
+        "zed"
+      ],
+      "created_at": "2021-02-20"
     },
     {
       "full_name": "anthropics/claude-quickstarts",
       "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
       "language": "Python",
-      "stars_this_week": 1731
+      "stars_this_week": 1731,
+      "boards": [
+        "all",
+        "python"
+      ],
+      "total_stars": 20879,
+      "topics": [],
+      "created_at": "2024-08-29"
     },
     {
       "full_name": "vercel-labs/agent-desktop",
       "description": "Computer use CLI for AI agents",
       "language": "Rust",
-      "stars_this_week": 5408
+      "stars_this_week": 5408,
+      "boards": [
+        "all"
+      ],
+      "total_stars": 23358,
+      "topics": [
+        "accessibility",
+        "accessibility-api",
+        "ai-agents",
+        "automation",
+        "cli",
+        "computer-use",
+        "computer-use-agent",
+        "computer-use-agents",
+        "desktop-automation",
+        "macos",
+        "mcp",
+        "rust"
+      ],
+      "created_at": "2026-02-19"
     },
     {
       "full_name": "lobehub/lobehub",
       "description": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
       "language": "TypeScript",
-      "stars_this_week": 1126
+      "stars_this_week": 1126,
+      "boards": [
+        "all",
+        "typescript"
+      ],
+      "total_stars": 85421,
+      "topics": [
+        "agent",
+        "agent-collaboration",
+        "agent-harness",
+        "loop-engineering",
+        "mcp",
+        "personal-assistant",
+        "proactive-agent",
+        "skills",
+        "super-agent",
+        "task-management"
+      ],
+      "created_at": "2023-05-21"
+    },
+    {
+      "full_name": "google/skills",
+      "description": "Agent Skills for Google products and technologies",
+      "language": "Python",
+      "stars_this_week": 1442,
+      "boards": [
+        "python"
+      ],
+      "total_stars": 24142,
+      "topics": [
+        "google",
+        "googlecloud",
+        "skills"
+      ],
+      "created_at": "2026-03-31"
+    },
+    {
+      "full_name": "homeassistant-ai/ha-mcp",
+      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+      "language": "Python",
+      "stars_this_week": 2302,
+      "boards": [
+        "python"
+      ],
+      "total_stars": 7757,
+      "topics": [
+        "ai",
+        "claude",
+        "hacs",
+        "home-assistant",
+        "home-automation",
+        "llm",
+        "mcp",
+        "model-context-protocol"
+      ],
+      "created_at": "2025-09-14"
+    },
+    {
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "language": "Python",
+      "stars_this_week": 3217,
+      "boards": [
+        "python"
+      ],
+      "total_stars": 143331,
+      "topics": [
+        "ai-video-generator",
+        "content-creation",
+        "ffmpeg",
+        "instagram-reels",
+        "llm",
+        "python",
+        "short-video",
+        "subtitles",
+        "text-to-speech",
+        "tiktok",
+        "video-automation",
+        "video-workflow",
+        "workflow-automation",
+        "youtube-shorts"
+      ],
+      "created_at": "2024-03-11"
+    },
+    {
+      "full_name": "bradautomates/claude-video",
+      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+      "language": "Python",
+      "stars_this_week": 707,
+      "boards": [
+        "python"
+      ],
+      "total_stars": 20733,
+      "topics": [],
+      "created_at": "2026-04-24"
+    },
+    {
+      "full_name": "D4Vinci/Scrapling",
+      "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+      "language": "Python",
+      "stars_this_week": 3846,
+      "boards": [
+        "python"
+      ],
+      "total_stars": 102535,
+      "topics": [
+        "ai",
+        "ai-scraping",
+        "automation",
+        "crawler",
+        "crawling",
+        "crawling-python",
+        "data",
+        "data-extraction",
+        "mcp",
+        "mcp-server",
+        "playwright",
+        "python",
+        "scraping",
+        "selectors",
+        "stealth",
+        "web-scraper",
+        "web-scraping",
+        "web-scraping-python",
+        "webscraping",
+        "xpath"
+      ],
+      "created_at": "2024-10-13"
+    },
+    {
+      "full_name": "The-PR-Agent/pr-agent",
+      "description": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
+      "language": "Python",
+      "stars_this_week": 850,
+      "boards": [
+        "python"
+      ],
+      "total_stars": 16116,
+      "topics": [
+        "ai",
+        "anthropic",
+        "code-review",
+        "coding-assistant",
+        "devtools",
+        "ollama",
+        "openai",
+        "pull-request",
+        "pull-requests"
+      ],
+      "created_at": "2023-07-05"
+    },
+    {
+      "full_name": "davila7/claude-code-templates",
+      "description": "Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods",
+      "language": "Python",
+      "stars_this_week": 332,
+      "boards": [
+        "python"
+      ],
+      "total_stars": 33491,
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "anthropic",
+        "anthropic-claude",
+        "claude",
+        "claude-code",
+        "claude-code-plugins",
+        "cli",
+        "mcp",
+        "registry"
+      ],
+      "created_at": "2025-07-04"
+    },
+    {
+      "full_name": "jamiepine/voicebox",
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "language": "Python",
+      "stars_this_week": 1076,
+      "boards": [
+        "python"
+      ],
+      "total_stars": 60592,
+      "topics": [
+        "ai",
+        "cuda",
+        "mlx",
+        "qwen3-tts",
+        "qwen3-tts-ui",
+        "voice-ai",
+        "voice-clone",
+        "whisper"
+      ],
+      "created_at": "2026-01-25"
+    },
+    {
+      "full_name": "NVIDIA/SkillSpector",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+      "language": "Python",
+      "stars_this_week": 1212,
+      "boards": [
+        "python"
+      ],
+      "total_stars": 25908,
+      "topics": [
+        "agent-security",
+        "agent-skills",
+        "agentic-ai",
+        "ai-security",
+        "claude-code",
+        "mcp",
+        "prompt-injection",
+        "security-scanner",
+        "security-tools",
+        "security-workflow",
+        "supply-chain-security"
+      ],
+      "created_at": "2026-03-21"
+    },
+    {
+      "full_name": "Jakeschincariol/instagram-agent-skill",
+      "description": "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer. Free, MIT.",
+      "language": "Python",
+      "stars_this_week": 1213,
+      "boards": [
+        "python"
+      ],
+      "total_stars": 6349,
+      "topics": [],
+      "created_at": "2026-09-13"
+    },
+    {
+      "full_name": "openai/codex-security",
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "language": "TypeScript",
+      "stars_this_week": 1712,
+      "boards": [
+        "typescript"
+      ],
+      "total_stars": 13188,
+      "topics": [
+        "ai-security",
+        "application-security",
+        "cli",
+        "code-scanning",
+        "codex",
+        "codex-security",
+        "cybersecurity",
+        "devsecops",
+        "nodejs",
+        "npm",
+        "openai",
+        "sdk",
+        "security",
+        "typescript",
+        "vulnerability-scanning"
+      ],
+      "created_at": "2026-07-13"
+    },
+    {
+      "full_name": "CopilotKit/OpenBot",
+      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "language": "TypeScript",
+      "stars_this_week": 1774,
+      "boards": [
+        "typescript"
+      ],
+      "total_stars": 12137,
+      "topics": [
+        "ag-ui",
+        "agent-governance",
+        "ai-agents",
+        "browser-automation",
+        "copilotkit",
+        "generative-ui",
+        "mcp"
+      ],
+      "created_at": "2026-08-17"
+    },
+    {
+      "full_name": "immich-app/immich",
+      "description": "High performance self-hosted photo and video management solution.",
+      "language": "TypeScript",
+      "stars_this_week": 747,
+      "boards": [
+        "typescript"
+      ],
+      "total_stars": 119118,
+      "topics": [
+        "backup-tool",
+        "flutter",
+        "google-photos",
+        "google-photos-alternative",
+        "javascript",
+        "mobile-app",
+        "nestjs",
+        "nodejs",
+        "photo-gallery",
+        "photos",
+        "photos-management",
+        "self-hosted",
+        "svelte",
+        "sveltekit",
+        "typescript",
+        "videos"
+      ],
+      "created_at": "2022-02-03"
+    },
+    {
+      "full_name": "can1357/oh-my-pi",
+      "description": "⌥ Coding agent with the IDE wired in. Built by Stencil Labs.",
+      "language": "TypeScript",
+      "stars_this_week": 973,
+      "boards": [
+        "typescript"
+      ],
+      "total_stars": 38973,
+      "topics": [
+        "ai-agent",
+        "ai-coding-agent",
+        "anthropic",
+        "bun",
+        "claude",
+        "cli",
+        "coding-assistant",
+        "llm",
+        "mcp",
+        "multi-provider",
+        "openai",
+        "rust",
+        "terminal",
+        "tui",
+        "typescript"
+      ],
+      "created_at": "2025-12-31"
+    },
+    {
+      "full_name": "every-app/open-seo",
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "language": "TypeScript",
+      "stars_this_week": 1012,
+      "boards": [
+        "typescript"
+      ],
+      "total_stars": 27638,
+      "topics": [
+        "backlink-analysis",
+        "google-search-console-mcp",
+        "keyword-research",
+        "mcp",
+        "seo",
+        "seo-agent",
+        "seo-audit",
+        "seo-automation",
+        "seo-skills",
+        "seo-tools",
+        "site-audit"
+      ],
+      "created_at": "2026-02-27"
+    },
+    {
+      "full_name": "ranxianglei/billion-context",
+      "description": "A context-compression plugin for month-long single sessions (billions of tokens) and small context windows (a 100K context is enough), billion-context is all you need .",
+      "language": "TypeScript",
+      "stars_this_week": 3008,
+      "boards": [
+        "typescript"
+      ],
+      "total_stars": 7264,
+      "topics": [],
+      "created_at": "2026-08-06"
+    },
+    {
+      "full_name": "backnotprop/plannotator",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "language": "TypeScript",
+      "stars_this_week": 511,
+      "boards": [
+        "typescript"
+      ],
+      "total_stars": 10515,
+      "topics": [
+        "agents",
+        "claude-code",
+        "code-review",
+        "codex",
+        "obsidian",
+        "opencode",
+        "pi-mono",
+        "plan-mode",
+        "skills"
+      ],
+      "created_at": "2025-12-28"
+    },
+    {
+      "full_name": "humanlayer/skills",
+      "description": null,
+      "language": "TypeScript",
+      "stars_this_week": 138,
+      "boards": [
+        "typescript"
+      ],
+      "total_stars": 5773,
+      "topics": [],
+      "created_at": "2026-03-18"
+    },
+    {
+      "full_name": "getpaseo/paseo",
+      "description": "Orchestrate multiple coding agents from desktop and mobile",
+      "language": "TypeScript",
+      "stars_this_week": 743,
+      "boards": [
+        "typescript"
+      ],
+      "total_stars": 24019,
+      "topics": [
+        "ade",
+        "agents",
+        "android",
+        "claude-code",
+        "codex",
+        "copilot",
+        "developer-tools",
+        "hermes",
+        "ios",
+        "linux",
+        "mobile",
+        "opencode",
+        "orchestration",
+        "pi",
+        "windows"
+      ],
+      "created_at": "2025-10-13"
+    },
+    {
+      "full_name": "meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "stars_this_week": 13375,
+      "boards": [
+        "typescript"
+      ],
+      "total_stars": 27476,
+      "topics": [],
+      "created_at": "2026-01-09"
+    },
+    {
+      "full_name": "GoogleChrome/modern-web-guidance-src",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "language": "TypeScript",
+      "stars_this_week": 3377,
+      "boards": [
+        "typescript"
+      ],
+      "total_stars": 4972,
+      "topics": [],
+      "created_at": "2026-01-27"
+    },
+    {
+      "full_name": "elie222/rakazo",
+      "description": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+      "language": "TypeScript",
+      "stars_this_week": 975,
+      "boards": [
+        "typescript"
+      ],
+      "total_stars": 8281,
+      "topics": [
+        "ai-agents",
+        "chatgpt",
+        "docker",
+        "electron",
+        "expo",
+        "grok",
+        "llm",
+        "self-hosted",
+        "typescript"
+      ],
+      "created_at": "2026-08-13"
+    },
+    {
+      "full_name": "nightly-labs/openbot",
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+      "language": "TypeScript",
+      "stars_this_week": 1509,
+      "boards": [
+        "typescript"
+      ],
+      "total_stars": 7564,
+      "topics": [
+        "ai-agents",
+        "bun",
+        "codex",
+        "electron",
+        "local-first",
+        "macos",
+        "solidjs",
+        "typescript"
+      ],
+      "created_at": "2026-08-12"
+    },
+    {
+      "full_name": "pingdotgg/t3code",
+      "description": "The best way to control Claude Code, Codex and more from any computer or phone",
+      "language": "TypeScript",
+      "stars_this_week": 10130,
+      "boards": [
+        "typescript"
+      ],
+      "total_stars": 59696,
+      "topics": [
+        "agent-orchestration",
+        "agents",
+        "ai",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "code",
+        "vibe-coding"
+      ],
+      "created_at": "2026-02-08"
+    },
+    {
+      "full_name": "garrytan/gbrain",
+      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+      "language": "TypeScript",
+      "stars_this_week": 1307,
+      "boards": [
+        "typescript"
+      ],
+      "total_stars": 32873,
+      "topics": [],
+      "created_at": "2026-04-05"
+    },
+    {
+      "full_name": "prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go",
+      "stars_this_week": 686,
+      "boards": [
+        "go"
+      ],
+      "total_stars": 67596,
+      "topics": [
+        "alerting",
+        "graphing",
+        "hacktoberfest",
+        "metrics",
+        "monitoring",
+        "prometheus",
+        "time-series"
+      ],
+      "created_at": "2012-11-24"
+    },
+    {
+      "full_name": "multica-ai/multica",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "language": "Go",
+      "stars_this_week": 950,
+      "boards": [
+        "go"
+      ],
+      "total_stars": 56066,
+      "topics": [],
+      "created_at": "2026-01-13"
+    },
+    {
+      "full_name": "opensandbox-group/OpenSandbox",
+      "description": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
+      "language": "Go",
+      "stars_this_week": 804,
+      "boards": [
+        "go"
+      ],
+      "total_stars": 17283,
+      "topics": [
+        "aaif",
+        "ai",
+        "ai-agent",
+        "ai-infra",
+        "kubernetes",
+        "sandbox"
+      ],
+      "created_at": "2025-12-17"
+    },
+    {
+      "full_name": "cli/cli",
+      "description": "GitHub’s official command line tool",
+      "language": "Go",
+      "stars_this_week": 121,
+      "boards": [
+        "go"
+      ],
+      "total_stars": 47005,
+      "topics": [
+        "cli",
+        "git",
+        "github-api-v4",
+        "golang"
+      ],
+      "created_at": "2019-10-03"
+    },
+    {
+      "full_name": "dsx-ai-factory/nvke",
+      "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+      "language": "Go",
+      "stars_this_week": 970,
+      "boards": [
+        "go"
+      ],
+      "total_stars": 1223,
+      "topics": [
+        "bare-metal",
+        "cluster-api",
+        "gpu",
+        "kubernetes",
+        "nvidia"
+      ],
+      "created_at": "2026-08-04"
+    },
+    {
+      "full_name": "JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "stars_this_week": 1828,
+      "boards": [
+        "go"
+      ],
+      "total_stars": 119718,
+      "topics": [
+        "ai",
+        "anthropic",
+        "caveman",
+        "claude",
+        "claude-code",
+        "llm",
+        "meme",
+        "prompt-engineering",
+        "skill",
+        "tokens"
+      ],
+      "created_at": "2026-04-04"
+    },
+    {
+      "full_name": "trufflesecurity/trufflehog",
+      "description": "Find, verify, and analyze leaked credentials",
+      "language": "Go",
+      "stars_this_week": 364,
+      "boards": [
+        "go"
+      ],
+      "total_stars": 29300,
+      "topics": [
+        "credentials",
+        "devsecops",
+        "dynamic-analysis",
+        "precommit",
+        "scanning",
+        "secret",
+        "secret-management",
+        "secrets",
+        "security",
+        "security-tools",
+        "trufflehog",
+        "verification"
+      ],
+      "created_at": "2016-12-31"
+    },
+    {
+      "full_name": "henrygd/beszel",
+      "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
+      "language": "Go",
+      "stars_this_week": 449,
+      "boards": [
+        "go"
+      ],
+      "total_stars": 27325,
+      "topics": [
+        "homelab",
+        "monitoring",
+        "self-hosted"
+      ],
+      "created_at": "2024-07-07"
+    },
+    {
+      "full_name": "router-for-me/CLIProxyAPI",
+      "description": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Devin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GPT Series, Grok Series, Claude model through API",
+      "language": "Go",
+      "stars_this_week": 754,
+      "boards": [
+        "go"
+      ],
+      "total_stars": 58506,
+      "topics": [
+        "antigravity",
+        "claude",
+        "claude-code",
+        "codex",
+        "devin",
+        "gemini",
+        "muse",
+        "openai"
+      ],
+      "created_at": "2025-07-01"
+    },
+    {
+      "full_name": "gosom/google-maps-scraper",
+      "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
+      "language": "Go",
+      "stars_this_week": 603,
+      "boards": [
+        "go"
+      ],
+      "total_stars": 8021,
+      "topics": [
+        "agent-skills",
+        "claude-skills",
+        "codex-skills",
+        "distributed-scraper",
+        "distributed-scraping",
+        "golang",
+        "google-maps",
+        "google-maps-scraping",
+        "web-scraper",
+        "web-scraping"
+      ],
+      "created_at": "2023-04-22"
+    },
+    {
+      "full_name": "sundowndev/phoneinfoga",
+      "description": "Information gathering framework for phone numbers",
+      "language": "Go",
+      "stars_this_week": 147,
+      "boards": [
+        "go"
+      ],
+      "total_stars": 18554,
+      "topics": [
+        "agregation",
+        "footprint",
+        "information-gathering",
+        "investigation",
+        "open-source-intelligence",
+        "osint",
+        "phone",
+        "phone-number",
+        "reconnaissance",
+        "reputation"
+      ],
+      "created_at": "2018-10-25"
+    },
+    {
+      "full_name": "gitleaks/gitleaks",
+      "description": "Find secrets with Gitleaks 🔑",
+      "language": "Go",
+      "stars_this_week": 267,
+      "boards": [
+        "go"
+      ],
+      "total_stars": 31005,
+      "topics": [
+        "ai-powered",
+        "ci-cd",
+        "cicd",
+        "cli",
+        "data-loss-prevention",
+        "devsecops",
+        "dlp",
+        "git",
+        "gitleaks",
+        "go",
+        "golang",
+        "hacktoberfest",
+        "llm",
+        "llm-inference",
+        "llm-training",
+        "nhi",
+        "open-source",
+        "secret",
+        "security",
+        "security-tools"
+      ],
+      "created_at": "2018-01-27"
+    },
+    {
+      "full_name": "etcd-io/etcd",
+      "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+      "language": "Go",
+      "stars_this_week": 196,
+      "boards": [
+        "go"
+      ],
+      "total_stars": 52603,
+      "topics": [
+        "cncf",
+        "consensus",
+        "database",
+        "distributed-database",
+        "distributed-systems",
+        "etcd",
+        "go",
+        "key-value",
+        "kubernetes",
+        "raft"
+      ],
+      "created_at": "2013-07-06"
+    },
+    {
+      "full_name": "aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "stars_this_week": 238,
+      "boards": [
+        "go"
+      ],
+      "total_stars": 39322,
+      "topics": [
+        "containers",
+        "devsecops",
+        "docker",
+        "go",
+        "golang",
+        "hacktoberfest",
+        "iac",
+        "infrastructure-as-code",
+        "kubernetes",
+        "misconfiguration",
+        "security",
+        "security-tools",
+        "vulnerability",
+        "vulnerability-detection",
+        "vulnerability-scanners"
+      ],
+      "created_at": "2019-04-11"
+    },
+    {
+      "full_name": "google/gvisor",
+      "description": "Application Kernel for Containers",
+      "language": "Go",
+      "stars_this_week": 105,
+      "boards": [
+        "go"
+      ],
+      "total_stars": 19997,
+      "topics": [
+        "containers",
+        "docker",
+        "kernel",
+        "kubernetes",
+        "linux",
+        "oci",
+        "sandbox"
+      ],
+      "created_at": "2018-04-26"
+    },
+    {
+      "full_name": "agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "stars_this_week": 443,
+      "boards": [
+        "go"
+      ],
+      "total_stars": 6601,
+      "topics": [
+        "agents",
+        "cncf",
+        "sandboxing"
+      ],
+      "created_at": "2026-05-13"
+    },
+    {
+      "full_name": "evcc-io/evcc",
+      "description": "smart charging ☀️🚘",
+      "language": "Go",
+      "stars_this_week": 86,
+      "boards": [
+        "go"
+      ],
+      "total_stars": 7613,
+      "topics": [
+        "battery",
+        "charger",
+        "eebus",
+        "emobility",
+        "golang",
+        "home-automation",
+        "modbus",
+        "mqtt",
+        "ocpp",
+        "pv",
+        "semp",
+        "solar",
+        "sunspec",
+        "wallbox"
+      ],
+      "created_at": "2019-12-06"
+    },
+    {
+      "full_name": "XTLS/Xray-core",
+      "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
+      "language": "Go",
+      "stars_this_week": 251,
+      "boards": [
+        "go"
+      ],
+      "total_stars": 42888,
+      "topics": [
+        "anticensorship",
+        "dns",
+        "network",
+        "proxy",
+        "reality",
+        "shadowsocks",
+        "socks5",
+        "tls",
+        "trojan",
+        "tunnel",
+        "utls",
+        "vision",
+        "vless",
+        "vmess",
+        "vpn",
+        "wireguard",
+        "xhttp",
+        "xray",
+        "xtls",
+        "xudp"
+      ],
+      "created_at": "2020-11-09"
+    },
+    {
+      "full_name": "Gentleman-Programming/gentle-ai",
+      "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
+      "language": "Go",
+      "stars_this_week": 626,
+      "boards": [
+        "go"
+      ],
+      "total_stars": 9139,
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "ai-coding",
+        "claude-code",
+        "code-review",
+        "codex",
+        "coding-agents",
+        "copilot",
+        "cursor",
+        "developer-tools",
+        "golang",
+        "llm",
+        "mcp",
+        "opencode",
+        "persistent-memory",
+        "pi",
+        "spec-driven-development"
+      ],
+      "created_at": "2026-02-27"
     }
   ]
 }
