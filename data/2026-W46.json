@@ -1,7 +1,9 @@
 {
   "meta": {
     "week": "2026-W46",
-    "generated_at": "2026-11-14T03:33:48+00:00"
+    "generated_at": "2026-11-14T03:41:49+00:00",
+    "baseline_week": null,
+    "baseline_skipped": []
   },
   "repos": [
     {
@@ -32,7 +34,8 @@
         "sherlock",
         "tools"
       ],
-      "created_at": "2018-12-24"
+      "created_at": "2018-12-24",
+      "streak": 1
     },
     {
       "full_name": "anthropics/skills",
@@ -43,11 +46,12 @@
         "all",
         "python"
       ],
-      "total_stars": 194180,
+      "total_stars": 194181,
       "topics": [
         "agent-skills"
       ],
-      "created_at": "2025-09-22"
+      "created_at": "2025-09-22",
+      "streak": 1
     },
     {
       "full_name": "milind-soni/OpenMausBot",
@@ -58,7 +62,7 @@
         "all",
         "typescript"
       ],
-      "total_stars": 22238,
+      "total_stars": 22244,
       "topics": [
         "ai-agents",
         "claude-code",
@@ -72,7 +76,8 @@
         "self-hosted",
         "typescript"
       ],
-      "created_at": "2026-08-11"
+      "created_at": "2026-08-11",
+      "streak": 1
     },
     {
       "full_name": "vercel-labs/agent-browser",
@@ -84,7 +89,8 @@
       ],
       "total_stars": 50773,
       "topics": [],
-      "created_at": "2026-01-11"
+      "created_at": "2026-01-11",
+      "streak": 1
     },
     {
       "full_name": "google/elephant-goldfish-model",
@@ -114,7 +120,8 @@
         "prompt-engineering",
         "spec-driven-development"
       ],
-      "created_at": "2026-09-13"
+      "created_at": "2026-09-13",
+      "streak": 1
     },
     {
       "full_name": "ZhuLinsen/daily_stock_analysis",
@@ -125,7 +132,7 @@
         "all",
         "python"
       ],
-      "total_stars": 71736,
+      "total_stars": 71740,
       "topics": [
         "a-stock",
         "ai-agent",
@@ -135,7 +142,8 @@
         "quantitative-finance",
         "quantitative-trading"
       ],
-      "created_at": "2026-01-10"
+      "created_at": "2026-01-10",
+      "streak": 1
     },
     {
       "full_name": "NVIDIA/auto-ontology",
@@ -146,9 +154,10 @@
         "all",
         "python"
       ],
-      "total_stars": 12594,
+      "total_stars": 12595,
       "topics": [],
-      "created_at": "2026-04-27"
+      "created_at": "2026-04-27",
+      "streak": 1
     },
     {
       "full_name": "google-deepmind/mujoco",
@@ -164,7 +173,8 @@
         "physics",
         "robotics"
       ],
-      "created_at": "2021-08-27"
+      "created_at": "2021-08-27",
+      "streak": 1
     },
     {
       "full_name": "mattpocock/skills",
@@ -174,9 +184,10 @@
       "boards": [
         "all"
       ],
-      "total_stars": 323891,
+      "total_stars": 323890,
       "topics": [],
-      "created_at": "2026-02-03"
+      "created_at": "2026-02-03",
+      "streak": 1
     },
     {
       "full_name": "addyosmani/agent-skills",
@@ -186,7 +197,7 @@
       "boards": [
         "all"
       ],
-      "total_stars": 117187,
+      "total_stars": 117193,
       "topics": [
         "agent-skills",
         "antigravity",
@@ -195,7 +206,8 @@
         "cursor",
         "skills"
       ],
-      "created_at": "2026-02-15"
+      "created_at": "2026-02-15",
+      "streak": 1
     },
     {
       "full_name": "cloudflare/security-audit-skill",
@@ -205,9 +217,10 @@
       "boards": [
         "all"
       ],
-      "total_stars": 71992,
+      "total_stars": 71996,
       "topics": [],
-      "created_at": "2026-06-18"
+      "created_at": "2026-06-18",
+      "streak": 1
     },
     {
       "full_name": "zed-industries/zed",
@@ -217,14 +230,15 @@
       "boards": [
         "all"
       ],
-      "total_stars": 94972,
+      "total_stars": 94973,
       "topics": [
         "gpui",
         "rust-lang",
         "text-editor",
         "zed"
       ],
-      "created_at": "2021-02-20"
+      "created_at": "2021-02-20",
+      "streak": 1
     },
     {
       "full_name": "anthropics/claude-quickstarts",
@@ -237,7 +251,8 @@
       ],
       "total_stars": 20879,
       "topics": [],
-      "created_at": "2024-08-29"
+      "created_at": "2024-08-29",
+      "streak": 1
     },
     {
       "full_name": "vercel-labs/agent-desktop",
@@ -247,7 +262,7 @@
       "boards": [
         "all"
       ],
-      "total_stars": 23358,
+      "total_stars": 23359,
       "topics": [
         "accessibility",
         "accessibility-api",
@@ -262,7 +277,8 @@
         "mcp",
         "rust"
       ],
-      "created_at": "2026-02-19"
+      "created_at": "2026-02-19",
+      "streak": 1
     },
     {
       "full_name": "lobehub/lobehub",
@@ -273,7 +289,7 @@
         "all",
         "typescript"
       ],
-      "total_stars": 85421,
+      "total_stars": 85422,
       "topics": [
         "agent",
         "agent-collaboration",
@@ -286,7 +302,8 @@
         "super-agent",
         "task-management"
       ],
-      "created_at": "2023-05-21"
+      "created_at": "2023-05-21",
+      "streak": 1
     },
     {
       "full_name": "google/skills",
@@ -302,7 +319,8 @@
         "googlecloud",
         "skills"
       ],
-      "created_at": "2026-03-31"
+      "created_at": "2026-03-31",
+      "streak": 1
     },
     {
       "full_name": "homeassistant-ai/ha-mcp",
@@ -323,7 +341,8 @@
         "mcp",
         "model-context-protocol"
       ],
-      "created_at": "2025-09-14"
+      "created_at": "2025-09-14",
+      "streak": 1
     },
     {
       "full_name": "harry0703/MoneyPrinterTurbo",
@@ -333,7 +352,7 @@
       "boards": [
         "python"
       ],
-      "total_stars": 143331,
+      "total_stars": 143333,
       "topics": [
         "ai-video-generator",
         "content-creation",
@@ -350,7 +369,8 @@
         "workflow-automation",
         "youtube-shorts"
       ],
-      "created_at": "2024-03-11"
+      "created_at": "2024-03-11",
+      "streak": 1
     },
     {
       "full_name": "bradautomates/claude-video",
@@ -362,7 +382,8 @@
       ],
       "total_stars": 20733,
       "topics": [],
-      "created_at": "2026-04-24"
+      "created_at": "2026-04-24",
+      "streak": 1
     },
     {
       "full_name": "D4Vinci/Scrapling",
@@ -372,7 +393,7 @@
       "boards": [
         "python"
       ],
-      "total_stars": 102535,
+      "total_stars": 102537,
       "topics": [
         "ai",
         "ai-scraping",
@@ -395,7 +416,8 @@
         "webscraping",
         "xpath"
       ],
-      "created_at": "2024-10-13"
+      "created_at": "2024-10-13",
+      "streak": 1
     },
     {
       "full_name": "The-PR-Agent/pr-agent",
@@ -417,7 +439,8 @@
         "pull-request",
         "pull-requests"
       ],
-      "created_at": "2023-07-05"
+      "created_at": "2023-07-05",
+      "streak": 1
     },
     {
       "full_name": "davila7/claude-code-templates",
@@ -427,7 +450,7 @@
       "boards": [
         "python"
       ],
-      "total_stars": 33491,
+      "total_stars": 33492,
       "topics": [
         "agent-skills",
         "ai-agents",
@@ -440,7 +463,8 @@
         "mcp",
         "registry"
       ],
-      "created_at": "2025-07-04"
+      "created_at": "2025-07-04",
+      "streak": 1
     },
     {
       "full_name": "jamiepine/voicebox",
@@ -461,7 +485,8 @@
         "voice-clone",
         "whisper"
       ],
-      "created_at": "2026-01-25"
+      "created_at": "2026-01-25",
+      "streak": 1
     },
     {
       "full_name": "NVIDIA/SkillSpector",
@@ -471,7 +496,7 @@
       "boards": [
         "python"
       ],
-      "total_stars": 25908,
+      "total_stars": 25909,
       "topics": [
         "agent-security",
         "agent-skills",
@@ -485,7 +510,8 @@
         "security-workflow",
         "supply-chain-security"
       ],
-      "created_at": "2026-03-21"
+      "created_at": "2026-03-21",
+      "streak": 1
     },
     {
       "full_name": "Jakeschincariol/instagram-agent-skill",
@@ -497,7 +523,8 @@
       ],
       "total_stars": 6349,
       "topics": [],
-      "created_at": "2026-09-13"
+      "created_at": "2026-09-13",
+      "streak": 1
     },
     {
       "full_name": "openai/codex-security",
@@ -507,7 +534,7 @@
       "boards": [
         "typescript"
       ],
-      "total_stars": 13188,
+      "total_stars": 13193,
       "topics": [
         "ai-security",
         "application-security",
@@ -525,7 +552,8 @@
         "typescript",
         "vulnerability-scanning"
       ],
-      "created_at": "2026-07-13"
+      "created_at": "2026-07-13",
+      "streak": 1
     },
     {
       "full_name": "CopilotKit/OpenBot",
@@ -545,7 +573,8 @@
         "generative-ui",
         "mcp"
       ],
-      "created_at": "2026-08-17"
+      "created_at": "2026-08-17",
+      "streak": 1
     },
     {
       "full_name": "immich-app/immich",
@@ -574,7 +603,8 @@
         "typescript",
         "videos"
       ],
-      "created_at": "2022-02-03"
+      "created_at": "2022-02-03",
+      "streak": 1
     },
     {
       "full_name": "can1357/oh-my-pi",
@@ -602,7 +632,8 @@
         "tui",
         "typescript"
       ],
-      "created_at": "2025-12-31"
+      "created_at": "2025-12-31",
+      "streak": 1
     },
     {
       "full_name": "every-app/open-seo",
@@ -626,7 +657,8 @@
         "seo-tools",
         "site-audit"
       ],
-      "created_at": "2026-02-27"
+      "created_at": "2026-02-27",
+      "streak": 1
     },
     {
       "full_name": "ranxianglei/billion-context",
@@ -636,9 +668,10 @@
       "boards": [
         "typescript"
       ],
-      "total_stars": 7264,
+      "total_stars": 7266,
       "topics": [],
-      "created_at": "2026-08-06"
+      "created_at": "2026-08-06",
+      "streak": 1
     },
     {
       "full_name": "backnotprop/plannotator",
@@ -648,7 +681,7 @@
       "boards": [
         "typescript"
       ],
-      "total_stars": 10515,
+      "total_stars": 10518,
       "topics": [
         "agents",
         "claude-code",
@@ -660,7 +693,8 @@
         "plan-mode",
         "skills"
       ],
-      "created_at": "2025-12-28"
+      "created_at": "2025-12-28",
+      "streak": 1
     },
     {
       "full_name": "humanlayer/skills",
@@ -672,7 +706,8 @@
       ],
       "total_stars": 5773,
       "topics": [],
-      "created_at": "2026-03-18"
+      "created_at": "2026-03-18",
+      "streak": 1
     },
     {
       "full_name": "getpaseo/paseo",
@@ -682,7 +717,7 @@
       "boards": [
         "typescript"
       ],
-      "total_stars": 24019,
+      "total_stars": 24018,
       "topics": [
         "ade",
         "agents",
@@ -700,7 +735,8 @@
         "pi",
         "windows"
       ],
-      "created_at": "2025-10-13"
+      "created_at": "2025-10-13",
+      "streak": 1
     },
     {
       "full_name": "meta/astryx",
@@ -710,9 +746,10 @@
       "boards": [
         "typescript"
       ],
-      "total_stars": 27476,
+      "total_stars": 27478,
       "topics": [],
-      "created_at": "2026-01-09"
+      "created_at": "2026-01-09",
+      "streak": 1
     },
     {
       "full_name": "GoogleChrome/modern-web-guidance-src",
@@ -722,9 +759,10 @@
       "boards": [
         "typescript"
       ],
-      "total_stars": 4972,
+      "total_stars": 4976,
       "topics": [],
-      "created_at": "2026-01-27"
+      "created_at": "2026-01-27",
+      "streak": 1
     },
     {
       "full_name": "elie222/rakazo",
@@ -734,7 +772,7 @@
       "boards": [
         "typescript"
       ],
-      "total_stars": 8281,
+      "total_stars": 8282,
       "topics": [
         "ai-agents",
         "chatgpt",
@@ -746,7 +784,8 @@
         "self-hosted",
         "typescript"
       ],
-      "created_at": "2026-08-13"
+      "created_at": "2026-08-13",
+      "streak": 1
     },
     {
       "full_name": "nightly-labs/openbot",
@@ -767,7 +806,8 @@
         "solidjs",
         "typescript"
       ],
-      "created_at": "2026-08-12"
+      "created_at": "2026-08-12",
+      "streak": 1
     },
     {
       "full_name": "pingdotgg/t3code",
@@ -777,7 +817,7 @@
       "boards": [
         "typescript"
       ],
-      "total_stars": 59696,
+      "total_stars": 59698,
       "topics": [
         "agent-orchestration",
         "agents",
@@ -788,7 +828,8 @@
         "code",
         "vibe-coding"
       ],
-      "created_at": "2026-02-08"
+      "created_at": "2026-02-08",
+      "streak": 1
     },
     {
       "full_name": "garrytan/gbrain",
@@ -800,7 +841,8 @@
       ],
       "total_stars": 32873,
       "topics": [],
-      "created_at": "2026-04-05"
+      "created_at": "2026-04-05",
+      "streak": 1
     },
     {
       "full_name": "prometheus/prometheus",
@@ -820,7 +862,8 @@
         "prometheus",
         "time-series"
       ],
-      "created_at": "2012-11-24"
+      "created_at": "2012-11-24",
+      "streak": 1
     },
     {
       "full_name": "multica-ai/multica",
@@ -832,7 +875,8 @@
       ],
       "total_stars": 56066,
       "topics": [],
-      "created_at": "2026-01-13"
+      "created_at": "2026-01-13",
+      "streak": 1
     },
     {
       "full_name": "opensandbox-group/OpenSandbox",
@@ -851,7 +895,8 @@
         "kubernetes",
         "sandbox"
       ],
-      "created_at": "2025-12-17"
+      "created_at": "2025-12-17",
+      "streak": 1
     },
     {
       "full_name": "cli/cli",
@@ -868,7 +913,8 @@
         "github-api-v4",
         "golang"
       ],
-      "created_at": "2019-10-03"
+      "created_at": "2019-10-03",
+      "streak": 1
     },
     {
       "full_name": "dsx-ai-factory/nvke",
@@ -886,7 +932,8 @@
         "kubernetes",
         "nvidia"
       ],
-      "created_at": "2026-08-04"
+      "created_at": "2026-08-04",
+      "streak": 1
     },
     {
       "full_name": "JuliusBrussee/caveman",
@@ -909,7 +956,8 @@
         "skill",
         "tokens"
       ],
-      "created_at": "2026-04-04"
+      "created_at": "2026-04-04",
+      "streak": 1
     },
     {
       "full_name": "trufflesecurity/trufflehog",
@@ -934,7 +982,8 @@
         "trufflehog",
         "verification"
       ],
-      "created_at": "2016-12-31"
+      "created_at": "2016-12-31",
+      "streak": 1
     },
     {
       "full_name": "henrygd/beszel",
@@ -950,7 +999,8 @@
         "monitoring",
         "self-hosted"
       ],
-      "created_at": "2024-07-07"
+      "created_at": "2024-07-07",
+      "streak": 1
     },
     {
       "full_name": "router-for-me/CLIProxyAPI",
@@ -960,7 +1010,7 @@
       "boards": [
         "go"
       ],
-      "total_stars": 58506,
+      "total_stars": 58507,
       "topics": [
         "antigravity",
         "claude",
@@ -971,7 +1021,8 @@
         "muse",
         "openai"
       ],
-      "created_at": "2025-07-01"
+      "created_at": "2025-07-01",
+      "streak": 1
     },
     {
       "full_name": "gosom/google-maps-scraper",
@@ -994,7 +1045,8 @@
         "web-scraper",
         "web-scraping"
       ],
-      "created_at": "2023-04-22"
+      "created_at": "2023-04-22",
+      "streak": 1
     },
     {
       "full_name": "sundowndev/phoneinfoga",
@@ -1017,7 +1069,8 @@
         "reconnaissance",
         "reputation"
       ],
-      "created_at": "2018-10-25"
+      "created_at": "2018-10-25",
+      "streak": 1
     },
     {
       "full_name": "gitleaks/gitleaks",
@@ -1050,7 +1103,8 @@
         "security",
         "security-tools"
       ],
-      "created_at": "2018-01-27"
+      "created_at": "2018-01-27",
+      "streak": 1
     },
     {
       "full_name": "etcd-io/etcd",
@@ -1073,7 +1127,8 @@
         "kubernetes",
         "raft"
       ],
-      "created_at": "2013-07-06"
+      "created_at": "2013-07-06",
+      "streak": 1
     },
     {
       "full_name": "aquasecurity/trivy",
@@ -1101,7 +1156,8 @@
         "vulnerability-detection",
         "vulnerability-scanners"
       ],
-      "created_at": "2019-04-11"
+      "created_at": "2019-04-11",
+      "streak": 1
     },
     {
       "full_name": "google/gvisor",
@@ -1121,7 +1177,8 @@
         "oci",
         "sandbox"
       ],
-      "created_at": "2018-04-26"
+      "created_at": "2018-04-26",
+      "streak": 1
     },
     {
       "full_name": "agent-substrate/substrate",
@@ -1137,7 +1194,8 @@
         "cncf",
         "sandboxing"
       ],
-      "created_at": "2026-05-13"
+      "created_at": "2026-05-13",
+      "streak": 1
     },
     {
       "full_name": "evcc-io/evcc",
@@ -1164,7 +1222,8 @@
         "sunspec",
         "wallbox"
       ],
-      "created_at": "2019-12-06"
+      "created_at": "2019-12-06",
+      "streak": 1
     },
     {
       "full_name": "XTLS/Xray-core",
@@ -1197,7 +1256,8 @@
         "xtls",
         "xudp"
       ],
-      "created_at": "2020-11-09"
+      "created_at": "2020-11-09",
+      "streak": 1
     },
     {
       "full_name": "Gentleman-Programming/gentle-ai",
@@ -1207,7 +1267,7 @@
       "boards": [
         "go"
       ],
-      "total_stars": 9139,
+      "total_stars": 9140,
       "topics": [
         "agent-skills",
         "ai-agents",
@@ -1227,7 +1287,73 @@
         "pi",
         "spec-driven-development"
       ],
-      "created_at": "2026-02-27"
+      "created_at": "2026-02-27",
+      "streak": 1
     }
-  ]
+  ],
+  "diff": {
+    "new": [
+      "sherlock-project/sherlock",
+      "anthropics/skills",
+      "milind-soni/OpenMausBot",
+      "vercel-labs/agent-browser",
+      "google/elephant-goldfish-model",
+      "ZhuLinsen/daily_stock_analysis",
+      "NVIDIA/auto-ontology",
+      "google-deepmind/mujoco",
+      "mattpocock/skills",
+      "addyosmani/agent-skills",
+      "cloudflare/security-audit-skill",
+      "zed-industries/zed",
+      "anthropics/claude-quickstarts",
+      "vercel-labs/agent-desktop",
+      "lobehub/lobehub",
+      "google/skills",
+      "homeassistant-ai/ha-mcp",
+      "harry0703/MoneyPrinterTurbo",
+      "bradautomates/claude-video",
+      "D4Vinci/Scrapling",
+      "The-PR-Agent/pr-agent",
+      "davila7/claude-code-templates",
+      "jamiepine/voicebox",
+      "NVIDIA/SkillSpector",
+      "Jakeschincariol/instagram-agent-skill",
+      "openai/codex-security",
+      "CopilotKit/OpenBot",
+      "immich-app/immich",
+      "can1357/oh-my-pi",
+      "every-app/open-seo",
+      "ranxianglei/billion-context",
+      "backnotprop/plannotator",
+      "humanlayer/skills",
+      "getpaseo/paseo",
+      "meta/astryx",
+      "GoogleChrome/modern-web-guidance-src",
+      "elie222/rakazo",
+      "nightly-labs/openbot",
+      "pingdotgg/t3code",
+      "garrytan/gbrain",
+      "prometheus/prometheus",
+      "multica-ai/multica",
+      "opensandbox-group/OpenSandbox",
+      "cli/cli",
+      "dsx-ai-factory/nvke",
+      "JuliusBrussee/caveman",
+      "trufflesecurity/trufflehog",
+      "henrygd/beszel",
+      "router-for-me/CLIProxyAPI",
+      "gosom/google-maps-scraper",
+      "sundowndev/phoneinfoga",
+      "gitleaks/gitleaks",
+      "etcd-io/etcd",
+      "aquasecurity/trivy",
+      "google/gvisor",
+      "agent-substrate/substrate",
+      "evcc-io/evcc",
+      "XTLS/Xray-core",
+      "Gentleman-Programming/gentle-ai"
+    ],
+    "continuing": [],
+    "dropped": []
+  }
 }
