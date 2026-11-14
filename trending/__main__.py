@@ -1,7 +1,11 @@
-"""Entry point for GitHub Actions: fetch the weekly Trending page and write data/YYYY-Www.json.
+"""Entry point for GitHub Actions: fetch weekly Trending boards and write data/YYYY-Www.json.
+
+Boards: all languages, then Python, TypeScript, Go (spec v1.1 §3.1). They are merged
+(§5.3) and enriched from the REST API. Exit code 1 and no data file when a board
+cannot be parsed (per-board degradation is T6).
 
 Usage: python -m trending [--html FILE] [--root DIR]
-Exit code 1 (and no data file written) when the page cannot be parsed — spec v1.1 §6.1.
+  --html parses one local file as the all-language board only (no network).
 """
 import argparse
 import sys
@@ -10,14 +14,21 @@ from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+from trending.enrich import enrich, github_client
+from trending.merge import merge
 from trending.parser import ParseError, parse_trending
 from trending.snapshot import write_snapshot
 
-URL = "https://github.com/trending?since=weekly"
+BOARDS = {
+    "all": "https://github.com/trending?since=weekly",
+    "python": "https://github.com/trending/python?since=weekly",
+    "typescript": "https://github.com/trending/typescript?since=weekly",
+    "go": "https://github.com/trending/go?since=weekly",
+}
 TZ = ZoneInfo("Asia/Taipei")
 
 
-def fetch(url: str = URL) -> str:
+def fetch(url: str) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": "github-trend-radar"})
     with urllib.request.urlopen(req, timeout=30) as resp:
         return resp.read().decode("utf-8")
@@ -29,16 +40,21 @@ def main(argv=None) -> int:
     ap.add_argument("--root", type=Path, default=Path("."))
     args = ap.parse_args(argv)
 
-    html = args.html.read_text(encoding="utf-8") if args.html else fetch()
+    pages = {"all": args.html.read_text(encoding="utf-8")} if args.html else {b: fetch(u) for b, u in BOARDS.items()}
     try:
-        repos = parse_trending(html)
+        parsed = {board: parse_trending(html) for board, html in pages.items()}
     except ParseError as e:
         print(f"Trending parse failed: {e}", file=sys.stderr)
         return 1
 
+    repos = merge(parsed)
+    if not args.html:
+        repos = enrich(repos, github_client())
+
     now = datetime.now(timezone.utc)
     path = write_snapshot(args.root, now.astimezone(TZ).date(), repos, now.isoformat(timespec="seconds"))
-    print(f"wrote {path} ({len(repos)} repos)")
+    counts = ", ".join(f"{b}={len(r)}" for b, r in parsed.items())
+    print(f"wrote {path} ({len(repos)} repos after merge; {counts})")
     return 0
 
 

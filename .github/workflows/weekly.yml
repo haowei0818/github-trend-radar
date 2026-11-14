@@ -19,6 +19,8 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python -m unittest -v
       - run: python -m trending
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit data file
         run: |
           git config user.name "github-actions[bot]"
