@@ -20,6 +20,7 @@ class Entry:
     total_stars: int | None = None
     topics: list | None = None
     created_at: str | None = None
+    streak: int | None = None
 
 
 def merge(boards: dict[str, list[Repo]]) -> list[Entry]:

@@ -14,10 +14,11 @@ from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+from trending.diff import apply_diff, find_baseline
 from trending.enrich import enrich, github_client
 from trending.merge import merge
 from trending.parser import ParseError, parse_trending
-from trending.snapshot import write_snapshot
+from trending.snapshot import week_id, write_snapshot
 
 BOARDS = {
     "all": "https://github.com/trending?since=weekly",
@@ -52,9 +53,15 @@ def main(argv=None) -> int:
         repos = enrich(repos, github_client())
 
     now = datetime.now(timezone.utc)
-    path = write_snapshot(args.root, now.astimezone(TZ).date(), repos, now.isoformat(timespec="seconds"))
+    today = now.astimezone(TZ).date()
+    base_week, base_repos, skipped = find_baseline(args.root / "data", week_id(today))
+    diff = apply_diff(repos, base_repos)
+    meta = {"baseline_week": base_week, "baseline_skipped": skipped}
+    path = write_snapshot(args.root, today, repos, now.isoformat(timespec="seconds"), meta=meta, diff=diff)
     counts = ", ".join(f"{b}={len(r)}" for b, r in parsed.items())
     print(f"wrote {path} ({len(repos)} repos after merge; {counts})")
+    print(f"baseline={base_week or 'none (first period)'} skipped={skipped} "
+          f"new={len(diff['new'])} continuing={len(diff['continuing'])} dropped={len(diff['dropped'])}")
     return 0
 
 

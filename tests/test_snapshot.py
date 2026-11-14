@@ -55,6 +55,18 @@ class WriteSnapshotTest(unittest.TestCase):
         self.assertEqual(data["meta"]["generated_at"], "second")
         self.assertEqual(data["repos"], [])
 
+    def test_writes_extra_meta_and_diff(self):
+        diff = {"new": ["acme/widget"], "continuing": [], "dropped": ["old/one"]}
+        path = write_snapshot(
+            self.root, date(2026, 11, 22), self.repos, "t",
+            meta={"baseline_week": "2026-W46", "baseline_skipped": []}, diff=diff,
+        )
+        data = json.loads(path.read_text(encoding="utf-8"))
+        self.assertEqual(data["meta"]["week"], "2026-W47")
+        self.assertEqual(data["meta"]["baseline_week"], "2026-W46")
+        self.assertEqual(data["meta"]["baseline_skipped"], [])
+        self.assertEqual(data["diff"], diff)
+
     def test_keeps_non_ascii_readable(self):
         path = write_snapshot(self.root, date(2026, 11, 15), [Repo("a/b", "驱动", None, None)], "t")
         self.assertIn("驱动", path.read_text(encoding="utf-8"))
