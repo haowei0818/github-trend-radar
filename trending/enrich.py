@@ -11,17 +11,26 @@ import urllib.request
 from trending.merge import Entry
 
 
-def enrich(entries: list[Entry], client) -> list[Entry]:
+def enrich(entries: list[Entry], client, retries: int = 0, sleep=None) -> list[Entry]:
     for e in entries:
-        try:
-            data = client(e.full_name)
-        except Exception:
+        data = _with_retry(lambda: client(e.full_name), retries, sleep)
+        if data is None:
             continue
         e.total_stars = data.get("stargazers_count")
         e.topics = list(data.get("topics") or [])
         created = data.get("created_at")
         e.created_at = created[:10] if created else None
     return entries
+
+
+def _with_retry(call, retries, sleep):
+    for attempt in range(retries + 1):
+        try:
+            return call()
+        except Exception:
+            if attempt < retries and sleep:
+                sleep(2 ** attempt)
+    return None
 
 
 def github_client(token: str | None = None):
